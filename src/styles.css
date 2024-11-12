@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Default text color */
+}
+
+.app-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #1e1e1e; /* Slightly lighter background */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1, h2 {
+    color: #00d1ce; /* Primary color for headings */
+}
+
+button {
+    background-color: #00d1ce; /* Button background */
+    color: #ffffff; /* Button text color */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #007a7a; /* Darker shade on hover */
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #333; /* Input background */
+    color: #ffffff; /* Input text color */
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #1e1e1e; /* List item background */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Priority styles */
+.high {
+    border-left: 5px solid #c250f7; /* High priority color */
+}
+
+.medium {
+    border-left: 5px solid #997bf9; /* Medium priority color */
+}
+
+.low {
+    border-left: 5px solid #007a7a; /* Low priority color */
+}
